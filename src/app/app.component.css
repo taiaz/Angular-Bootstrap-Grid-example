@@ -1,0 +1,9 @@
+div.grid-title {
+  background-color: blue;
+  color: white;
+}
+
+div.grid-row {
+  background-color: ivory;
+  border: 1px solid blue;
+}

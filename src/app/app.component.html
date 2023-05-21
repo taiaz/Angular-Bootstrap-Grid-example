@@ -1,0 +1,49 @@
+<div class="container">
+  Check more example of Angular grid on furetechnews.com
+  <a href="https://furetechnews.local/how-to-add-angular-grid-in-angular-14/" target="_blank">
+    How to use Angular Material tooltip in Angular?
+  </a>
+</div>
+
+<section>
+  <div class="row grid-title">
+    <div class="col-3 col-md-2">Flag</div>
+    <div class="col-3 col-md-2">Country</div>
+    <div class="col-3 col-md-2">Area</div>
+    <div class="col-3 col-md-2">Population</div>
+    <div class="col-3 col-md-4 d-none d-md-block">Description</div>
+  </div>
+  <div class="row grid-row" *ngFor="let country of countries">
+    <div class="col-3 col-md-2">
+      <img
+        [src]="'https://upload.wikimedia.org/wikipedia/commons/' + country.flag"
+        style="width: 20px"
+      />
+    </div>
+    <div class="col-3 col-md-2">{{ country.name }}</div>
+    <div class="col-3 col-md-2">{{ country.area }}</div>
+    <div class="col-3 col-md-2">{{ country.population }}</div>
+    <div class="col-3 col-md-4 d-none d-md-block">
+      {{ country.description }}
+    </div>
+  </div>
+</section>
+
+<br />
+<br />
+<div class="container">
+  <div class="row grid-row">
+    <div class="col-sm-6">2 cols > 576px. 1 col < 576px</div>
+    <div class="col-sm-6">2 cols > 576px. 1 col < 576px</div>
+  </div>
+  <div class="row grid-row">
+    <div class="col-sm">3 cols > 576px. 1 col < 576px</div>
+    <div class="col-sm">3 cols > 576px. 1 col < 576px</div>
+    <div class="col-sm">3 cols > 576px. 1 col < 576px</div>
+  </div>
+  <div class="row grid-row">
+    <div class="col-sm-6">6 cols > 576px. 1 col < 576px</div>
+    <div class="col-sm-3">3 cols > 576px. 1 col < 576px</div>
+    <div class="col-sm-3">3 cols > 576px. 1 col < 576px</div>
+  </div>
+</div>
