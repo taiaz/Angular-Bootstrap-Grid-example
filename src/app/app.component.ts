@@ -16,12 +16,12 @@ export class AppComponent {
         "France, the largest country in Western Europe, has long been a gateway between the continent's northern and southern regions.",
     },
     {
-      name: 'Vietnam',
-      flag: '2/21/Flag_of_Vietnam.svg',
-      area: 331212,
-      population: 96462106,
+      name: 'India',
+      flag: '4/41/Flag_of_India.svg',
+      area: 3287263,
+      population: 1324171354,
       description:
-        'Vietnam (Vietnamese: Việt Nam), officially the Socialist Republic of Vietnam (Vietnamese: Cộng hòa Xã hội chủ nghĩa Việt Nam) is a country in Southeast Asia.',
+        'India (Hindi: Bhārat), officially the Republic of India (Hindi: Bhārat Gaṇarājya) is a country in South Asia.',
     },
     {
       name: 'Germany',
